@@ -172,6 +172,7 @@ button {
   border-radius: 4px;
   border: none;
   margin: 0 auto;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio-btn:hover {
   background-color: #404bbf;
@@ -325,6 +326,9 @@ button {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+.footer-logo-text {
+  margin-right: 120px;
 }
 .footer-logo {
   display: inline-block;
