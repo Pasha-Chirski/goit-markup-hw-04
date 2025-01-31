@@ -223,10 +223,10 @@ button {
   color: #434455;
 }
 .section-icon-item {
+  height: 112x;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 112x;
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #8e8f99;
@@ -287,6 +287,32 @@ button {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.contacts-socmedia-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.contacts-socmedia-item {
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-socmedia-icon {
+  fill: #f4f4fd;
+}
+.contacts-socmedia-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-socmedia-link:hover,
+.contacts-socmedia-link:focus {
+  background-color: #404bbf;
 }
 /*section 4*/
 .portfolio {
